@@ -1,0 +1,19 @@
+{
+  "name": "temple-run-3d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Temple Run 3D — a 100-stage endless runner across 20 lost worlds.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "public": "powershell -ExecutionPolicy Bypass -File start-public.ps1"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "7.3.7"
+  }
+}
